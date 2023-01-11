@@ -1,0 +1,104 @@
+.item {
+  display: inline-table;
+  margin: 15px 15px;
+  overflow: hidden;
+  width: 265px;
+}
+
+.items {
+  width: 100%;
+  margin: 0 auto;
+  max-width: 1920px;
+  justify-content: center;
+}
+
+.items.black {
+  background: #000;
+  color: #fff;
+}
+
+.image {
+  width: 202px;
+  height: 206px;
+  background-repeat: no-repeat !important;
+  background-size: contain !important;
+}
+
+.album-name {
+  text-align: center;
+  margin: 5px;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #fff;
+  color: black;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+body {
+  margin: 0
+}
+
+.iconBar {
+  width: 10%;
+  height: 100vh;
+  float: left;
+  background-color: #303030;
+}
+
+@media only screen and (max-width: 768px) {
+  .iconBar {
+    width: 24%;
+  }
+
+  .image {
+    width: 265px;
+    height: 260px;
+    background-repeat: no-repeat !important;
+    background-size: contain !important;
+  }
+
+}
+
+input[type="text"] {
+  width: 85%;
+  margin: 5px 0px;
+}
+
+.iconBar a {
+  display: block;
+  text-align: center;
+  padding: 15px;
+  transition: all 0.5s ease;
+  color: white;
+}
+
+.iconBar a:hover {
+  background-color: #006346;
+}
+
+.active {
+  background-color: #008c62;
+}
+
+.center {
+  margin: 0 auto;
+}
+
+.header {
+  width: 100%;
+}
+
+.header.black {
+  background-color: #282c34;
+  color: #fff;
+}
